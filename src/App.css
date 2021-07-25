@@ -1,0 +1,41 @@
+.container{
+  max-width: 450px;
+  background-color: rgba(231, 229, 229, 0.603);
+  padding: 20px 0px;
+  text-align: center;
+  margin: auto;
+}
+.country-list{
+  cursor: pointer;
+  pointer-events: stroke;
+}
+.country-list:hover{
+  background-color: rgba(231, 229, 229, 0.788);
+}
+
+.infoContainer{
+  /* max-width: 450px; */
+  margin: auto;
+  background-color: rgb(230, 210, 173);
+}
+
+.l-bg-cherry {
+  background: linear-gradient(to right, #0a504a, #38ef7d);
+  color: #fff;
+  background-image: url('./img/card-img.jpeg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.emergency h5{
+  color: rgb(247, 65, 65);
+}
+.vaccination h5{
+  color: cadetblue;
+}
+
+.footer{
+  background-color: cornsilk;
+  text-align: center;
+  padding: 10px 0px;
+}
